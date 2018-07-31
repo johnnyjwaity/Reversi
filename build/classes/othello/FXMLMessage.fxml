@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="othello.MessageController">
+   <children>
+      <Label fx:id="winnerLabel" alignment="CENTER" layoutX="59.0" layoutY="78.0" prefHeight="45.0" prefWidth="202.0" text="Black Wins" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
